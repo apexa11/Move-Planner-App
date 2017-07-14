@@ -37,8 +37,10 @@ function loadData() {
                  '</li>');
 
         };
-
-    })
+    // error handling
+    }).error(function(e){
+        $nytHeaderElem.text('New York Times Article could not be loadded');
+    });
 return false;
 };
 
