@@ -19,8 +19,7 @@ body {background-color: #CCC;}
 .wikipedia-container {
     float:right;
     width:290px;
-    padding:10px;
-    margin-right: 10px;
+    padding:2px;
     background-color: rgba(255,255,255,0.7);
 }
 
